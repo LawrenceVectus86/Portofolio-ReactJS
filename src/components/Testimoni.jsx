@@ -1,7 +1,7 @@
 import { TESTIMONIALS } from "../constants"
 const Testimoni = () => {
   return (
-    <div id="testimonial" className="container mx-auto mt-20 py-16 tracking-tighter">
+    <div id="testimonials" className="container mx-auto mt-20 py-16 tracking-tighter">
       <h2 className="mt-20 mb-10  text-center text-4xl font-semibold">What People Say</h2>
       <div className="mx-auto max-w-3xl"> 
         {TESTIMONIALS.map((testimonial, index) => (

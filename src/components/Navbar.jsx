@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import logo from "../assets/logo1.png";
 import { NAVIGATION_LINKS } from '../constants';
 import { FaTimes } from 'react-icons/fa';
@@ -15,9 +15,9 @@ const Navbar = () => {
     const handleLinkClick = (e, href) => {
         e.preventDefault();
         const targetElement = document.querySelector(href);
-        if(targetElement){
+        if (targetElement) {
             const offset = -85;
-            const elementPosition = targetElement.getBoudningClientRect().top;
+            const elementPosition = targetElement.getBoundingClientRect().top; // Perbaiki kesalahan pengetikan
             const offsetPosition = elementPosition + window.scrollY + offset;
             window.scrollTo({
                 top: offsetPosition,

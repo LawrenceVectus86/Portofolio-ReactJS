@@ -152,7 +152,7 @@ export const SKILLS = [
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
+  title: "No - Tokyo",
   award: "Gold Medalist - 2024",
   description:
     "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",

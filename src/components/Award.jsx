@@ -1,9 +1,10 @@
 import video from '../assets/video.mp4'
 import { ACHIEVEMENT } from '../constants'
 
+
 const Award = () => {
   return (
-    <div id='award'>
+    <div id="award">
       <h2 className="mt-20 mb-10  text-center text-4xl font-semibold">My Awards</h2>
       <div className='mx-auto flex max-w-6xl flex-wrap'>
         <div className='w-full p-2 sm:w-1/2'>

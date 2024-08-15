@@ -1,6 +1,7 @@
-import { PROJECTS } from '../constants'
+import { NAVIGATION_LINKS, PROJECTS } from '../constants'
 import Card from '../components/Card'
 import { motion } from 'framer-motion'
+
 
 const containerVariants = {
   hidden: {opacity: 0, y:-20},
